@@ -1,0 +1,102 @@
+header{
+    background-color: #333;
+    color: white;
+    padding: 9px;
+    text-align: center;
+}
+
+header h1{
+    font-size: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px;
+}
+
+aside{
+    float: left;
+    width: 20%;
+    height: 615px;
+    background-color: #f1f1f1;
+}
+
+aside ul{
+    list-style-type: none;
+    padding-left: 30px;
+    line-height: 2.5;
+}
+
+aside ul li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 0.1s;
+}
+
+#claude:hover{
+    color: #ff0000;
+    font-weight: bold;
+}
+
+#gemini:hover{
+    color: #00d0ff;
+    font-weight: bold;
+}
+
+#gpt:hover{
+    color: rgb(30, 255, 191);
+    font-weight: bold;
+}
+
+#grox:hover{
+    color: #000000;
+    font-weight: bold;
+}
+
+#perplexity:hover{
+    color: rgb(65, 172, 255);
+    font-weight: bold;
+}
+
+
+
+main{
+    margin-left: 20%;
+    height: 575px;
+    padding: 20px;
+}
+
+main h1{
+    font-size: 24px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+
+main h2{
+    text-align: center;
+    padding-right: 280px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 15px;
+}
+
+main p{
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+main video{
+    display: block;
+    margin: 0px 215px;
+    padding: 0px;
+}
+
+
+
+
+footer{
+    background-color: #333;
+    color: white;
+    padding: 1px;
+    text-align: center;
+}
